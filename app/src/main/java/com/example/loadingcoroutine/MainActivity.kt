@@ -73,7 +73,7 @@ fun MainScreen(
                 viewModel.loadData()
             }
         ) {
-            Text(if (uiState.isLoading) "Loading..." else "データを読み取ります")
+            Text(if (uiState.isLoading) "Loading..." else "データを読み取り")
         }
 
         if (uiState.isLoading) {
